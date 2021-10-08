@@ -19,8 +19,8 @@ function(isConfirm){
  
 
 swal({  
- title: "Bạn có phải là Thùy Duyên ? ", 
-  text: "Mã xác nhận: 1607 ",  
+ title: "Bạn có phải là Thuiii ? ", 
+  text: "Mã xác nhận là: (inbox để lấy mã nha",  
  type: "input",  
  showCancelButton: false,  
  closeOnConfirm: false,   
@@ -29,7 +29,7 @@ animation: "slide-from-top",
  inputPlaceholder: "Mã xác nhận là gì ?" },
  function(inputValue){   
 if (inputValue === false) return false;   
-   if (inputValue !== "1607") {   
+   if (inputValue !== "0910") {   
   swal.showInputError("Nhập sai rồi kìa :v ");   
   return false   }   
  
